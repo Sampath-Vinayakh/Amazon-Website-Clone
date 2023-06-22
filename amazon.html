@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/product-container.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <button class="amazon-logo-button"><img src="images/logos/amazon-logo-white.png" class="amazon-logo"></button>
+      </div>
+      <div class="middle-section">
+        <input placeholder="Search" type="text" class="search-box">
+        <button class="search-button">
+          <img src="images/icons/search-icon.png" class="search-image">
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="returns-orders">Returns <br> <strong>& Orders</strong></div>
+        <div class="cart-section">
+            <img src="images/icons/cart-icon.png" class="cart-image">
+            <div class="cart-quantity js-cart-quantity">0</div>
+            <div class="cart">Cart</div>
+        </div>
+      </div>
+      </div>
+    </header>
+    <main>
+      <div class="products-grid js-products-grid">
+      </div>
+    </main>
+    <script src="data/cart.js"></script>
+    <script src="data/product.js">
+
+    </script>
+    <script src="scripts/amazon.js">
+
+    </script>
+  </body>
+</html>
